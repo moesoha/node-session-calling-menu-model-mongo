@@ -6,9 +6,10 @@ module.exports=async function (mongoUrl,collection,config){
 		await db.connect();
 
 		let model=require('./lib/model');
-		db.register(await model(collection,config));
+		let modelCreated=await model(collection,config);
+		db.register(modelCreated);
 
-		return model;
+		return modelCreated;
 	}else{
 		throw new Error('No enough arguments!')
 	}
