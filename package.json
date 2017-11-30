@@ -1,10 +1,14 @@
 {
-  "name": "session-polling-helper-model-mongodb",
+  "name": "session-calling-menu-model-mongo",
   "version": "1.0.0",
-  "description": "",
+  "description": "MongoDB model for node-session-calling-menu",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moesoha/node-session-calling-menu-model-mongo.git"
   },
   "author": "Soha Jin <soha@lohu.info>",
   "license": "MIT",
